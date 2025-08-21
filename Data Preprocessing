@@ -110,6 +110,264 @@ range 0-8
 8.carb_input
 Carbohydrate intake (grams)
 range 0-7
+-----------------------------------------------
+HUPA0007
+1. time 
+need to separate coulumns for date and time to get better understanding
+ranges : 2018-09-19 to 2018-10-02 time interval of 5 minutes
+
+2.glucose
+Blood sugar level measured by CGM (mg/dL)
+ranges : 10-285
+
+3.calories
+Calories burned, tracked via a smartwatch
+range 6.92-78.85
+need to convert 16.00932002 to 16.01 (it must be in kcal unit)
+
+4.heart rate
+Heart rate in beats per minute (BPM)
+43.92-149.38
+
+need to convert 98.66115702 to 98.66
+
+5.steps 
+Number of steps taken, tracked via a wearable device
+ranges 0-560
+
+6.basal_rate
+Continuous insulin delivery rate (units/hour)
+range 0-01
+
+7.bolus_volume_delivered
+Insulin dose administered (units)
+range 0-13.3 
+0 means no bolus_volume_delivered to patient.
+13.3 means A bolus_volume_delivered of 13.3 units indicates that the patient administered 13.3 units of 
+short-acting insulin at that time point to cover meal carbohydrates and/or correct a high glucose reading
+
+8.carb_input
+Carbohydrate intake (grams)
+range 0-8.5
+------------------------------------------------------------------------------
+HUPA0009
+1. time 
+need to separate coulumns for date and time to get better understanding
+ranges : 2018-09-19 to 2018-10-02 time interval of 5 minutes
+
+2.glucose
+Blood sugar level measured by CGM (mg/dL)
+ranges : 100-307
+
+3.calories
+Calories burned, tracked via a smartwatch
+range 4.57-36.33
+need to convert 16.00932002 to 16.01 (it must be in kcal unit)
+
+4.heart rate
+Heart rate in beats per minute (BPM)
+61.87-128.22
+need to convert 98.66115702 to 98.66
+
+5.steps 
+Number of steps taken, tracked via a wearable device
+ranges 0-682
+
+6.basal_rate
+Continuous insulin delivery rate (units/hour)
+range 0-01
+
+7.bolus_volume_delivered
+Insulin dose administered (units)
+range 0-2 
+0 means no bolus_volume_delivered to patient.
+13.3 means A bolus_volume_delivered of 13.3 units indicates that the patient administered 13.3 units of 
+short-acting insulin at that time point to cover meal carbohydrates and/or correct a high glucose reading
+
+8.carb_input
+Carbohydrate intake (grams)
+range 0-5.8
+------------------------------------------------------------------------------
+HUPA00010
+1. time 
+need to separate coulumns for date and time to get better understanding
+ranges : 2018-11-07,2018-11-17 (11 days of data)time interval of 5 minutes
+
+2.glucose
+Blood sugar level measured by CGM (mg/dL)
+ranges : 41-416
+
+3.calories
+Calories burned, tracked via a smartwatch
+range 4.06-29.21
+need to convert 16.00932002 to 16.01 (it must be in kcal unit)
+
+4.heart rate
+Heart rate in beats per minute (BPM)
+53.47-166.33
+need to convert 98.66115702 to 98.66
+
+5.steps 
+Number of steps taken, tracked via a wearable device
+ranges 0-593
+
+6.basal_rate
+Continuous insulin delivery rate (units/hour)
+range 0-0.15
+
+7.bolus_volume_delivered
+Insulin dose administered (units)
+range 0-4 
+0 means no bolus_volume_delivered to patient.
+13.3 means A bolus_volume_delivered of 13.3 units indicates that the patient administered 13.3 units of 
+short-acting insulin at that time point to cover meal carbohydrates and/or correct a high glucose reading
+
+8.carb_input
+Carbohydrate intake (grams)
+range 0-6
+-------------------------------------------------------------------
+HUPA00011
+1. time 
+need to separate coulumns for date and time to get better understanding
+ranges : 2018-11-07,2018-11-20 (14 days of data)time interval of 5 minutes
+
+2.glucose
+Blood sugar level measured by CGM (mg/dL)
+ranges : 53-355
+
+3.calories
+Calories burned, tracked via a smartwatch
+range 4.15-41.74
+need to convert 16.00932002 to 16.01 (it must be in kcal unit)
+
+4.heart rate
+Heart rate in beats per minute (BPM)
+48.96-163.78
+need to convert 98.66115702 to 98.66
+
+5.steps 
+Number of steps taken, tracked via a wearable device
+ranges 0-627
+
+6.basal_rate
+Continuous insulin delivery rate (units/hour)
+range 0
+
+7.bolus_volume_delivered
+Insulin dose administered (units)
+range 0-4 
+0 means no bolus_volume_delivered to patient.
+13.3 means A bolus_volume_delivered of 13.3 units indicates that the patient administered 13.3 units of 
+short-acting insulin at that time point to cover meal carbohydrates and/or correct a high glucose reading
+
+8.carb_input
+Carbohydrate intake (grams)
+range 0-60
+------------------------------------------------------------------------------
+HUPA00014
+1. time 
+need to separate coulumns for date and time to get better understanding
+ranges : 2018-11-07,2018-11-20 (14 days of data)time interval of 5 minutes
+
+2.glucose
+Blood sugar level measured by CGM (mg/dL)
+ranges : 40-443.5
+
+3.calories
+Calories burned, tracked via a smartwatch
+range 4.49-43.31
+need to convert 16.00932002 to 16.01 (it must be in kcal unit)
+
+4.heart rate
+Heart rate in beats per minute (BPM)
+53.51-168.56
+need to convert 98.66115702 to 98.66
+
+5.steps 
+Number of steps taken, tracked via a wearable device
+ranges 0-609
+
+6.basal_rate
+Continuous insulin delivery rate (units/hour)
+range 0-11
+
+7.bolus_volume_delivered
+Insulin dose administered (units)
+range 0-11
+0 means no bolus_volume_delivered to patient.
+13.3 means A bolus_volume_delivered of 13.3 units indicates that the patient administered 13.3 units of 
+short-acting insulin at that time point to cover meal carbohydrates and/or correct a high glucose reading
+
+8.carb_input
+Carbohydrate intake (grams)
+range 0-6.5
+-------------------------------------------------------------------
+HUPA00015
+1. time 
+need to separate coulumns for date and time to get better understanding
+ranges : 2019-03-27 to 2019-04-09 (14 days of data)time interval of 5 minutes
+
+2.glucose
+Blood sugar level measured by CGM (mg/dL)
+ranges : 40-370
+
+3.calories
+Calories burned, tracked via a smartwatch
+range 4.23-52.162
+need to convert 16.00932002 to 16.01 (it must be in kcal unit)
+
+4.heart rate
+Heart rate in beats per minute (BPM)
+49.43-174.71
+need to convert 98.66115702 to 98.66
+
+5.steps 
+Number of steps taken, tracked via a wearable device
+ranges 0-658
+
+6.basal_rate
+Continuous insulin delivery rate (units/hour)
+range 0
+
+7.bolus_volume_delivered
+Insulin dose administered (units)
+range 0
+0 means no bolus_volume_delivered to patient.
+13.3 means A bolus_volume_delivered of 13.3 units indicates that the patient administered 13.3 units of 
+short-acting insulin at that time point to cover meal carbohydrates and/or correct a high glucose reading
+
+8.carb_input
+Carbohydrate intake (grams)
+range 0
+-------------------------------------------------------------------
+
+Splitting Date and Time from an ISO Timestamp
+import pandas as pd
+# Replace with your actual filepath
+df = pd.read_csv("your_data.csv")
+example
+df = pd.read_csv(r"C:\Users\gauri\OneDrive\Documents\python\August 2025\Dataset from launch folder\HUPA0015P.csv")
+
+#string based approach
+df[["date", "time_only"]] = df["timestamp"].str.split("T", expand=True)
+print(df[["timestamp", "date", "time_only"]].head())
+
+example
+df[["date", "time_only"]] = df["time"].str.split("T", expand=True)
+print(df[["time", "date", "time_only"]].head())
+
+                  time        date time_only
+0  2019-03-27T16:15:00  2019-03-27  16:15:00
+1  2019-03-27T16:20:00  2019-03-27  16:20:00
+2  2019-03-27T16:25:00  2019-03-27  16:25:00
+3  2019-03-27T16:30:00  2019-03-27  16:30:00
+4  2019-03-27T16:35:00  2019-03-27  16:35:00
+
+# optionally drop the original column
+# df = df.drop(columns="timestamp")
+
+df.to_csv("data_with_date_time.csv", index=False)
+--------------------------------------------------------------------
 
 
 
