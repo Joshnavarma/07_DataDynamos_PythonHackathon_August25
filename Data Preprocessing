@@ -53,3 +53,26 @@ Atrial fibrillation (rapid)	110–180 BPM	Irregular rhythm)
 
 HUPA0005 - Heart rate is present <40 which is outlier
 
+
+
+
+7.HUPA0001- steps - number of steps track via variable device
+	Range found here are from 0-621
+
+8. HUPA0001- bolus_volume_delivered-Insulin dose administered in units
+          This is short-acting insulin given before meals or to correct high glucose.
+	Outliers	<0.5 or >100	Often data entry or device error
+
+           Ranges present here are from 0 to 19.8
+           No negative values found
+           Outliers found less than 0.5
+
+Negative values found in HUPA0017
+	
+
+1.HUPA0002-carb_input
+	Ranges here are from 0-103 
+
+
+
+
