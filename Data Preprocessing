@@ -368,6 +368,19 @@ print(df[["time", "date", "time_only"]].head())
 
 df.to_csv("data_with_date_time.csv", index=False)
 --------------------------------------------------------------------
+Explanation for Data cleaning:
+
+# 3. Remove impossible negatives
+    for col in ['glucose','calories','steps','basal_rate','bolus_volume_delivered','carb_input','heart_rate']:
+        if col in df.columns:
+            df.loc[df[col] < 0, col] = df.loc[df[col] < 0, col].abs()# convert to positive based on the other columns values/entries
+
+# Removing of -ve sign from column: 
+We define a list of columns that should never be negative in our  dataset. 
+In file HUPA0017P found total 4 records with negative values fo column name bolus_volume_delivered. Replace those negative values with abs(), transforming -X into X. 
+Why Use This Approach :
+If we compare those records with other records we found that it was a data entry error. -ve value wont be possible for column bolus_volume_delivered
+It helped to quickly fixes common data‐entry or device‐output errors without dropping rows also it preserves the magnitude of the original reading while correcting its sign.
 
 
 
