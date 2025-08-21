@@ -74,6 +74,45 @@ Negative values found in HUPA0017
 	Ranges here are from 0-103 
 
 
+Gauri
+
+HUPA0028P
+1. time
+need to separate columns for date and time to get better understanding
+ranges : date 2022-02-17 to 2022-03-17 time 13:50:00 to 07:05:00 interval of 5 minutes
+
+2.glucose
+Blood sugar level measured by CGM (mg/dL)
+ranges : 40-296
+
+3.calories
+Calories burned, tracked via a smartwatch
+range 4.496999979 to 40.20317984 
+need to convert 16.00932002 to 16.01 (it must be in kcal unit)
+
+4.heart rate
+Heart rate in beats per minute (BPM)
+51.93939394 to 144.5217391
+need to convert 98.66115702 to 98.66
+
+5.steps 
+Number of steps taken, tracked via a wearable device
+ranges 0-702
+
+6.basal_rate
+Continuous insulin delivery rate (units/hour)
+range 0 to 0.087
+
+7.bolus_volume_delivered
+Insulin dose administered (units)
+range 0-8
+
+8.carb_input
+Carbohydrate intake (grams)
+range 0-7
+
+
+
 
 
 
