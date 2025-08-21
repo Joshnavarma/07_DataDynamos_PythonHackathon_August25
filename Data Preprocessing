@@ -1,1 +1,55 @@
 
+1.HUPA0001-carb_input - amount of carbohydrates consumed in grams
+
+  0 should be replaced as N/A
+So a 0 likely means "data not recorded", and should be treated as missing. These can’t be 0 for a living person.
+Ranges found here are from 0-4
+
+2.HUPA0001-basal_rate - continuous insulin delivery date (Units/hour)
+Patient Type	Typical Basal Rate (U/hr)
+Adults (T1D or T2D)	0.1 – 2.0
+Pediatric patients	0.05 – 1.0
+Athletes / insulin sensitive	<0.5
+⚠️ Values That Suggest Errors (Outliers)
+Value (U/hr)	Interpretation	Action
+0	Possible missing data or off pump	Replace with NaN unless justified
+< 0.05	Too low for meaningful delivery	Treat as missing or incorrect
+> 5	Highly unlikely (clinical outlier)	Flag or remove
+> 10	Likely data entry error	Remove or review
+
+   0 values can be Possible missing data or off pump Replace with NaN unless justified
+    When there are values less than 0.05 (not including 0) considered as incorrect/missing data
+    Range present here  is from 0 to 0.91
+    Round of values by 2 digits
+          
+
+3.HUPA0001–time. 
+Convert the time column and remove T for better readability using pd.to_datetime()
+
+4.HUPA0001-glucose.
+        Values like 217.2608696 can be rounded to 217.26  
+         Values below 40 and above 500 should be considered as outliers. But here there are outliers
+         No negative values. No 0 values.
+        Values are from 40-444
+
+5.HUPA0001-calories – Calories burnt via smart watch
+
+        No negative values. No 0 values.
+        Values can be rounded of by 2 decimal points.
+         No outliers found b/w 4.02-37.5
+
+HUPA0025 Range from 7 to 106 which is different from others.
+
+6. HUPA0001-Heart rate - beats per minute
+	((Normal adult: 60–100 BPM Athletes: 40–60 BPM (can be lower) Tachycardia: >100 BPM
+Bradycardia: <60 BPM) Sinus tachycardia100–150 BPM	Normal rhythm but fast
+Supraventricular tachycardia (SVT) 150–250 BPM Often episodic
+Ventricular tachycardia	100–250 BPM	Can be life-threatening
+Atrial fibrillation (rapid)	110–180 BPM	Irregular rhythm)
+
+	Values can be rounded by 2 digits
+	No values found under 40
+             Highest 167.32 (can 100 be considered outlier?)
+
+HUPA0005 - Heart rate is present <40 which is outlier
+
