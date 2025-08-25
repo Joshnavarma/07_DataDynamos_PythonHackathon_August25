@@ -23,7 +23,7 @@ Value (U/hr)	Interpretation	Action
     Round of values by 2 digits
           
 
-3.HUPA0001–time. 
+3.HUPA0001–time -
 Convert the time column and remove T for better readability using pd.to_datetime()
 
 4.HUPA0001-glucose.
